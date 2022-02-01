@@ -1,0 +1,32 @@
+﻿@model TIENDA_DE_COCINAS.Models.user
+@{
+    ViewData["Title"] = "Privacy Policy";
+}
+<h1>Registro de Usuarios</h1>
+
+<div class="row">
+    <div class="col-md-12">
+        <form method="post">
+            <div asp-validation-summary="All" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="email"></label>
+                <input asp-for="email" class="form-control" />
+                <span asp-validation-for="email" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="password1"></label>
+                <input asp-for="password1" class="form-control" />
+                <span asp-validation-for="password1" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="password2">Confirmar Password</label>
+                <input asp-for="password2" class="form-control" />
+                <span asp-validation-for="password2" class="text-danger"></span>
+            </div>
+            <button type="submit" class="btn-primary">Registro</button>
+        </form>
+
+    </div>
+</div>

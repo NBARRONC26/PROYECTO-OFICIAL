@@ -1,0 +1,38 @@
+
+#bar {
+    background-image: url('../IMAGENES/R.jpg');
+    width: 100%;
+    height: 800px;
+    animation: foto 10s infinite alternate;
+    background-size: 150%;
+    background-repeat: no-repeat;
+}
+
+@keyframes foto {
+    from {
+        background-position: bottom left;
+    }
+
+    to {
+        background-position: top right;
+    }
+}
+#texto{ 
+   
+    padding-top:200px;
+    padding-left:60px;
+    color:aliceblue;
+    font-size:200px;
+    
+}
+#HOLA {
+    background-image: url('file:///C:\Users\nolbe\Desktop\BARRON .NET CORE\TIENDA-DE-COCINAS\TIENDA-DE-COCINAS\wwwroot\IMAGENES\confi (1).jpg');
+}
+#2 {
+    background-image: url('file:///C:\Users\nolbe\Desktop\BARRON .NET CORE\TIENDA-DE-COCINAS\TIENDA-DE-COCINAS\wwwroot\IMAGENES\deli.jpg');
+  
+}
+#3 {
+    background-image: url('file:///C:\Users\nolbe\Desktop\BARRON .NET CORE\TIENDA-DE-COCINAS\TIENDA-DE-COCINAS\wwwroot\IMAGENES\tiend.png');
+   
+}
